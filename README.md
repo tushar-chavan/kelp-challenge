@@ -10,10 +10,7 @@ A simple Node.js/Express service that reads `.csv` files, parses them into neste
 - CSV file ingestion via file path or upload
 - Stores data in PostgreSQL (`name`, `age`, `address`, `additional_info`)
 - Simple Express endpoints for:
-  - `/convert` – parse CSV to JSON (no DB)
-  - `/import` – parse + save to DB
-  - `/users` – list stored users
-
+  - `/convertCsvToJson` – parse CSV to JSON 
 ---
 
 ## 🛠️ Prerequisites
